@@ -246,9 +246,8 @@ def run_DR(freq):
 		save_file(newfile)
 
 
-write_WF(500)
-
-
+for freq in DR_freq:
+	run_DR(freq)
 
 
 
