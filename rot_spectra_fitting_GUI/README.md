@@ -1,1 +1,1 @@
-This was my main script for analysis 
+I wrote this program with Dr. Steve Shipman (New College of Florida) to fit rotational spectra. Originally, it was going to be combined with autofit, but we never got around to combining the two programs.
