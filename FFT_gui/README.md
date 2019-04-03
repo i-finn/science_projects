@@ -1,1 +1,1 @@
-
+I wrote this script with Daniel Guth and Jerry Feng at Caltech. It uses tkinter to generate a simple GUI. Time domain data is read in from a file and the user can select a particular time window. Then the spectrum (fast Fourier transform) is calculated and displayed.
