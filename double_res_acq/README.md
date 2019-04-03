@@ -1,4 +1,4 @@
-I wrote this script to take automated double resonance data on the microwave spectrometer at Caltech. My coworkers and I used it for several years to take data on a variety of projects. Here is an overview of the code:
+I wrote this script to take automated double resonance spectra on the microwave spectrometer at Caltech. My coworkers and I used it for several years to take data on a variety of projects. Here is an overview of the code:
 
 1) User inputs a list of double resonance frequencies, chirped pulse parameters, and local oscillator frequencies.
 
@@ -12,4 +12,8 @@ For each set of double resonance frequencies the program performs the following 
 
 3) The frequency on the microwave synthesizer (local oscillator) is set to the correct value over serial communication
 
-4) The digitizer on the computer is started via a mouse click (unfortunately there wasn't a good API for the digitizer at the time so we just used automated mouse clicking). When the acquisition is finished, a filename is automatically typed in and the time domain data is typed in and saved.
+4) The digitizer on the computer is started via a mouse click (unfortunately there wasn't a good API for the digitizer at the time so we just used automated mouse clicking). When the acquisition is finished, a filename is automatically typed in and the time domain data is saved.
+
+
+
+Altogether, this program allows the user to determine which peaks in a spectrum are connected to which other peaks. This helps considerably in spectral assignment.
