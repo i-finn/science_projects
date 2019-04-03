@@ -24,17 +24,17 @@ def save_file():
 def move_comb(voltage):
 	#this routine sets the output voltage of the PID controller
 	#to a the value (voltage) specifed when calling this routine
-	ser = serial.Serial(’COM8’, 9600, timeout=3)
+	ser = serial.Serial('COM8', 9600, timeout=3)
 	#opens serial port on computer used to talk to SIM mainframe,
 	#port:COM8, baud rate: 9600, timeout: 3 ms
-	ser.write(’CONN 1,"xyz"\n’)
+	ser.write('CONN 1,"xyz"\n')
 	#talk to serial port 1 in SIM mainframe: slave slow PID controller,
 	#defines escape string as "xyz"
 	#when sending commands to the SIM mainframe all strings terminate in \n
 	ser.write('AMAN 0\n') #set PID controller to manual mode
-	ser.write(’MOUT %s\n’%(str(voltage)))
+	ser.write('MOUT %s\n'%(str(voltage)))
 	#set manual voltage to the desired value in Volts
-	ser.write(’xyz\n’)
+	ser.write('xyz\n')
 	#send escape string to close serial connection to port 1 in SIM mainframe
 	ser.close() #close serial port on control computer
 def save_file():
@@ -52,17 +52,17 @@ def save_file():
 def move_comb(voltage):
 	#this routine sets the output voltage of the PID controller
 	#to a the value (voltage) specifed when calling this routine
-	ser = serial.Serial(’COM8’, 9600, timeout=3)
+	ser = serial.Serial('COM8', 9600, timeout=3)
 	#opens serial port on computer used to talk to SIM mainframe,
 	#port:COM8, baud rate: 9600, timeout: 3 ms
-	ser.write(’CONN 1,"xyz"\n’)
+	ser.write('CONN 1,"xyz"\n')
 	#talk to serial port 1 in SIM mainframe: slave slow PID controller,
 	#defines escape string as "xyz"
 	#when sending commands to the SIM mainframe all strings terminate in \n
-	ser.write(’AMAN 0\n’) #set PID controller to manual mode
-	ser.write(’MOUT %s\n’%(str(voltage)))
+	ser.write('AMAN 0\n') #set PID controller to manual mode
+	ser.write('MOUT %s\n'%(str(voltage)))
 	#set manual voltage to the desired value in Volts
-	ser.write(’xyz\n’)
+	ser.write('xyz\n')
 	#send escape string to close serial connection to port 1 in SIM mainframe
 	ser.close() #close serial port on control computer
 converted_step = step/575.0
