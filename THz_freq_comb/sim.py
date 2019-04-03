@@ -31,7 +31,7 @@ def move_comb(voltage):
 	#talk to serial port 1 in SIM mainframe: slave slow PID controller,
 	#defines escape string as "xyz"
 	#when sending commands to the SIM mainframe all strings terminate in \n
-	ser.write(’AMAN 0\n’) #set PID controller to manual mode
+	ser.write('AMAN 0\n') #set PID controller to manual mode
 	ser.write(’MOUT %s\n’%(str(voltage)))
 	#set manual voltage to the desired value in Volts
 	ser.write(’xyz\n’)
