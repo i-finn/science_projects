@@ -18,8 +18,8 @@ def move(servo, angle):
 	ser1.write(chr(servo))
 	ser1.write(chr(angle))
 	else:
-	print "Servo angle must be an integer between 0 and
-	180.\n"
+	print "Servo angle must be an integer between 0 and 180.
+
 ser2.write("p")#this retrieves the pressure from the pressure gauge
 x = float(ser2.readline()[0:5])#this selects gauge 1
 pressure = x
