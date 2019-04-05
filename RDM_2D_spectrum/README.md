@@ -2,7 +2,7 @@ These are some scripts for predicting 2D THz spectra in a n-level system using a
 
 2D_spectrum_generator_v2.py : Takes input parameters, performs main calculation.
 
-Average_Data_wHeader_2D.m : Reads in idividual scans (vectors) and turns them into a matrix. This script was also used for averaging experimental data
+Average_Data_wHeader_2D.m : Reads in idividual scans (vectors) and turns them into a matrix. This script was also used for averaging experimental data as well. 
 
 FFT_2D_2.m : calculates 2D FFT of the data to get the 2D spectrum.
 
