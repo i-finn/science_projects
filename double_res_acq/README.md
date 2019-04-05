@@ -1,3 +1,4 @@
+# Description
 I wrote this script to take automated double resonance spectra on the microwave spectrometer at Caltech. My coworkers and I used it for several years to take data on a variety of projects. Here is an overview of the code:
 
 1) User inputs a list of double resonance frequencies, chirped pulse parameters, and local oscillator frequencies.
@@ -18,3 +19,6 @@ For each set of double resonance frequencies the program performs the following 
 
 
 Altogether, this program allows the user to determine which peaks in a spectrum are connected to which other peaks. This helps considerably in spectral assignment.
+
+# Files
+*  	auto_DR.py : main file
