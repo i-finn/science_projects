@@ -4,7 +4,7 @@ This was a somewhat longer project that evolved into a collaboration at three in
 
 Seifert, Nathan A., Ian A. Finneran, Cristobal Perez, Daniel P. Zaleski, Justin L. Neill, Amanda L. Steber, Richard D. Suenram, Alberto Lesarri, Steven T. Shipman, and Brooks H. Pate. "AUTOFIT, an automated fitting tool for broadband rotational spectra, and applications to 1-hexanal." Journal of Molecular Spectroscopy 312 (2015): 13-21.
 
-Autofit uses SPFIT and SPCAT for rotational spectra prediction. These programs are quite fast (20 ms per fit per core) and have become a gold standard in the field. They were written by Dr. Herb Pickett at [JPL](https://spec.jpl.nasa.gov/) and are decribed in this publication:
+Autofit uses SPFIT and SPCAT for rotational spectra prediction. These programs are quite fast (~20 ms per fit per core on Intel Ivy Bridge CPU) and have become a gold standard in the field. They were written by Dr. Herb Pickett at [JPL](https://spec.jpl.nasa.gov/) and are decribed in this publication:
 
 Pickett, H. M. (1991). The fitting and prediction of vibration-rotation spectra with spin interactions. Journal of Molecular Spectroscopy, 148(2), 371-377.
 
