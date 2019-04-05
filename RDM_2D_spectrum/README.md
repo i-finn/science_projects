@@ -6,6 +6,8 @@ Average_Data_wHeader_2D.m : Reads in idividual scans (vectors) and turns them in
 
 FFT_2D_2.m : calculates 2D FFT of the data to get the 2D spectrum.
 
+plotter_2D.m : For plotting the 2D time domain data
+
 I wrote the initial version (shown here) and Dr. Ralph Welsch (now at Center for Free-Electron Laser Science, Hamburg, Germany) added more features and generally improved the code in a later version, which we used for analyzing experimental data in two publications. I wrote the matlab data processing scripts with Dr. Marco Allodi (now at University of Chicago). Please see the first PNAS paper for a detailed description of the code and application. It is available from the PNAS website free of charge.
 
 PNAS: Finneran, I. A., Welsch, R., Allodi, M. A., Miller, T. F., & Blake, G. A. (2016). Coherent two-dimensional terahertz-terahertz-Raman spectroscopy. Proceedings of the National Academy of Sciences, 113(25), 6857-6861. [Paper available here](https://doi.org/10.1073/pnas.1605631113)
