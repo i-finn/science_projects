@@ -10,6 +10,11 @@ I wrote this program with Prof. Steve Shipman (New College of Florida) to fit ro
 * perform nonlinear least square fitting on your assignments. the program automatically updates your predicted spectrum
 * when you are satisfied with the fits, grab the SPFIT output files to get the standard errors of the parameters and RMS error of the fit
 
+
+This program uses SPFIT and SPCAT for prediction of rotational spectra. These programs are quite fast (~20 ms per fit per core on Intel Ivy Bridge CPU) and have become a gold standard in the field. They were written by Dr. Herb Pickett at [JPL](https://spec.jpl.nasa.gov/) and are decribed in this publication:
+
+Pickett, H. M. (1991). The fitting and prediction of vibration-rotation spectra with spin interactions. Journal of Molecular Spectroscopy, 148(2), 371-377.
+
 # Files
 
 * fitting_GUI_v11B.py : main program
