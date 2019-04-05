@@ -129,42 +129,24 @@ def file1():
     global sample_rate
     global filename
     filename =fileopenbox(msg="Choose your Spectrum")
-
-
-
-
-
-    
-
-
-
-    
     
 # GUI
 root = Tk()
 counter =0
+
 #draw_button = Button(root, text="Update FFT", command = main)
 draw_button2 = Button(root, text="UPDATE", command = main2)
 draw_button3 = Button(root, text="FID Filename", command = file1)
-
 app_entry = Entry(root)
 label = Label(root,text="Lower t (us)")
-
 label2 = Label(root,text="Upper t (us)")
 label3 = Label(root,text="Lower f (MHz)")
 label4 = Label(root,text="Upper f (MHz)")
 label5 = Label(root,text="Sample Rate(Gs/s)")
-
-
-
-
-
 app_entry2 = Entry(root)
 app_entry3 = Entry(root)
 app_entry4 = Entry(root)
 app_entry5 = Entry(root)
-
-
 app_entry.insert(0,"0.0")
 app_entry2.insert(0,"10.0")
 app_entry3.insert(0,"1.0")
@@ -174,39 +156,26 @@ app_entry5.insert(0,"5")
 #draw_button.grid(row=1, column=0)
 draw_button2.grid(row=2, column=1)
 draw_button3.grid(row=3, column=1)
-
 app_entry.grid(row=5, column=1)
 app_entry2.grid(row=6, column=1)
 app_entry3.grid(row=7, column=1)
 app_entry4.grid(row=8, column=1)
 app_entry5.grid(row=9, column=1)
-
-
 label.grid(row=5, column=0)
 label2.grid(row=6, column=0)
 label3.grid(row=7, column=0)
 label4.grid(row=8, column=0)
 label5.grid(row=9, column=0)
 
-
-
 # init figure
 fig = plt.figure(1)
-
 canvas = FigureCanvasTkAgg(fig, master=root)
 toolbar = NavigationToolbar2TkAgg(canvas, root)
 canvas.get_tk_widget().grid(row=0,column=2)
 toolbar.grid(row=1,column=2)
-
 fig2 = plt.figure(2)
-
 canvas2 = FigureCanvasTkAgg(fig2, master=root)
 toolbar2 = NavigationToolbar2TkAgg(canvas2, root)
 canvas2.get_tk_widget().grid(row=0,column=3,columnspan=10)
 toolbar2.grid(row=1,column=3)
-
-
-
-    
-
 root.mainloop()
