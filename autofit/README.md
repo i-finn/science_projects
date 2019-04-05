@@ -6,5 +6,10 @@ Seifert, Nathan A., Ian A. Finneran, Cristobal Perez, Daniel P. Zaleski, Justin 
 
 # Files
 
-* prog_A_v14b.py : a fairy bug-free version of the program we used for many years at Caltech. See above links for more details
+* prog_A_v14b.py : a fairy stable version of the program we used for many years at Caltech. See above links for more details
+
+# Program overview
+
+
+![alt text](https://github.com/iafinn/science_projects/blob/master/autofit/overview.png)
 
