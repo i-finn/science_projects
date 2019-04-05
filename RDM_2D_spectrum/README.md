@@ -6,6 +6,8 @@ PNAS: Finneran, I. A., Welsch, R., Allodi, M. A., Miller, T. F., & Blake, G. A. 
 
 Followup paper: Finneran, I. A., Welsch, R., Allodi, M. A., Miller III, T. F., & Blake, G. A. (2017). 2D THz-THz-Raman photon-echo spectroscopy of molecular vibrations in liquid bromoform. The journal of physical chemistry letters, 8(18), 4640-4644. [link to details](https://authors.library.caltech.edu/81443/2/jz7b02106_si_001.pdf)
 
+![alt text](https://github.com/iafinn/science_projects/blob/master/RDM_2D_spectrum/example.png)
+
 
 
 
