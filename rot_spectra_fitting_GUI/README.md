@@ -1,8 +1,8 @@
 # Description
-I wrote this program with Prof. Steve Shipman (New College of Florida) to fit rotational spectra. We never quite finished the program and it still has a few bugs. Nonetheless, it was probably the most useful script in my PhD thesis work as it allowed me to rapidly analyze results from autofit and do the final spectral fits. It uses PyQT4 and matplotlib to generate the GUI. My coworkers and I used it extensively (along with autofit) to analyze data from the Caltech microwave spectrometer. A screenshot is shown below. Here is a walkthrough of typical usage:
+I wrote this program with Prof. Steve Shipman (New College of Florida) to fit rotational spectra. We never quite finished the program, as it was intended to be fully merged with autofit. Nonetheless, it was probably the most useful script in my PhD thesis work as it allowed me to rapidly analyze results from autofit and do the final spectral fits. It uses PyQT4 and matplotlib to generate the GUI. My coworkers and I used it extensively (along with autofit) to analyze data from the Caltech microwave spectrometer. A screenshot is shown below. Here is a walkthrough of typical usage:
 
 * load an experimental spectrum using the file menu
-* set the level of the noise in the spectrum and perform a peakfinder (peaks now have dots at the top)
+* set the level of the noise in the spectrum and perform peakfinding (all peaks have dots diplayed)
 * plug in a set of spectroscopic constants from autofit, then click plot input
 * in the top frame you now have a simulated autofit result (black) and experimental (red) spectrum
 * adjust the rotational constant sliders to see how the spectrum changes and see how robust the fit actually is
