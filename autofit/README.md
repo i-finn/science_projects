@@ -11,7 +11,7 @@ Pickett, H. M. (1991). The fitting and prediction of vibration-rotation spectra 
 
 # Files
 
-* prog_A_v14b.py : a fairy stable version of the program we used for many years at Caltech. See above links for more details
+* prog_A_v14b.py : main program
 
 # Program overview
 
