@@ -12,6 +12,5 @@ In the interface (shown below), the left panel is the FFT, and the right panel i
 
 ![alt text](https://github.com/iafinn/science_projects/blob/master/FFT_gui/screenshot2.png)
 
-It was used in these publications:
 
 
